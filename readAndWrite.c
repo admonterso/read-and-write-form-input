@@ -9,7 +9,7 @@ int main()
     while (1)
     {
         c = getchar();
-        if (c == '\n')
+        if (c == '\n') // terminete reading on first line
             break;
         text1[i] = c;
         i++;
